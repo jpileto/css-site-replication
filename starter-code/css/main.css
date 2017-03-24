@@ -8,3 +8,96 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.homepage {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.phones {
+  float: left;
+  width: 30%;
+}
+
+.phones > img {
+  width: 100%;
+}
+
+.logo,
+.main {
+  float: left;
+  width: 45%;
+  margin-left: 40px;
+}
+
+.logo {
+  position: relative;
+  width: 50%;
+}
+
+.logo > a {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  color: lightblue;
+  background: #06365f;
+  text-decoration: none;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+h2 {
+  width: 50%;
+  color: #06365f;
+}
+
+main {
+  background-size: 100%;
+  padding: 40px 50px;
+  position: relative;
+  font-size: 20px;
+}
+
+.download > img {
+  padding-right: 10px;
+}
+
+.footer {
+  position: relative;
+  width: 55%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+.nav-link {
+  width: 75%;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px 40px;
+}
+
+.nav-link > li {
+  display: inline;
+  font-size: 12px;
+  color: #1c5380;
+  font-weight: bold;
+  margin: 0 10px;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#copyright {
+  color: lightgray:
+}
